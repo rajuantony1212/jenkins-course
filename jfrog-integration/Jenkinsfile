@@ -1,5 +1,5 @@
 node {
-    def server = Artifactory.server('54.175.142.104:8080')
+    def server = Artifactory.server('3.81.19.116')
     def rtGradle = Artifactory.newGradleBuild()
     def buildInfo = Artifactory.newBuildInfo()
     stage 'Build'
